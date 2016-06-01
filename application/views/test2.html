@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cara Pemesanan</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/bootstrap.css">
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+
+<div class="container-fluid">
+    
+    <nav class="navbar navbar-default">
+      <div class="container">
+    
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Universitas Hasanuddin</a>
+        </div>
+    
+    
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+              <a class="btn btn-default btn-outline btn-circle collapsed"  data-toggle="collapse" href="#nav-collapse1" aria-expanded="false" aria-controls="nav-collapse1">Input Data Baru</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+      <div class="container">
+        <div class="col-md-12">
+         <fieldset>
+         <legend>Masukkan Data Mahasiswa</legend>
+            <form class="form-horizontal" role="form" method="post">
+             <div class="form-group">
+                <label class="col-md-3 control-label">Nama</label>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" name="name">
+                </div>
+              </div> 
+              <div class="form-group">
+                <label  class="col-md-3 control-label">NIM</label>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" name="nim">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-3 control-label">Jenis Kelamin</label>
+                <div class="col-md-6">
+                  <input type="radio" name="gender" value="Laki-Laki"/> Laki-laki
+                  <input type="radio" name="gender" value="Perempuan"/> Perempuan
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-3 control-label">Tempat Lahir</label>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" name="place">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="lastName" class="col-md-3 control-label">Tanggal Lahir</label>
+                <div class="col-md-6">
+                  <input type="date" name="date" size="50" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-3 control-label">Golongan Darah</label>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" name="goldar">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="lastName" class="col-md-3 control-label">Program Studi</label>
+                <div class="col-md-6">
+                  <select name="prodi">
+                       <option value="Elektro"  >Elektro</option>
+                       <option value="Mesin" >Mesin</option>
+                       <option value="Sipil" >Sipil</option>
+                       <option value="Arsitektur">Arsitektur</option>
+                       <option value="Industri">Industri</option>
+                       <option value="Pertambangan">Pertambangan</option>
+                       <option value="Geologi">Geologi</option>
+                       <option value="PWK">PWK</option>
+                       <option value="Perkapalan">Perkapalan</option>
+                       <option value="Kelautan">Kelautan</option>
+                       <option value="Sistem Perkapalan">Sistem Perkapalan</option>
+                       <option value="Lingkungan">Lingkungan</option>
+                       <option value="Informatika">Informatika</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="lastName" class="col-md-3 control-label">Angkatan</label>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" name="angkatan">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="lastName" class="col-md-3 control-label">Alamat</label>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" name="alamat">
+                </div>
+              </div>
+              
+            
+            <div class="form-group">
+              <div class="col-md-offset-3 col-md-10">
+                <button type="submit" class="btn btn-success">Masukkan</button> 
+              </div>
+            </div>
+            </form>
+            </fieldset>
+            </div>
+            </div>
+            </div>
+
+         </body>
+         </html>
+    
